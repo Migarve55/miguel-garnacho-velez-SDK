@@ -1,9 +1,13 @@
 
 namespace LordOfTheRingsSDK;
 
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
 public class ApiResponse<T> {
 
-    public IEnumerable<T> Docs { get; set; }
+    public IEnumerable<T> Docs { get; set; } = new List<T>();
 
     public int Total { get; set; }
 

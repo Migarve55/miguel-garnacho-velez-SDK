@@ -12,7 +12,7 @@ The token is optional, since there are some api calls do not require the token.
 
 ```C#
     var sdk = new SDK(); // Without token
-    var sdk = new SDK("{Your personal token}"); // By default, it uses the 'https://the-one-api.dev/v2' url.
+    var sdk = new SDK("{Your personal token}"); // By default the url us 'https://the-one-api.dev/v2'.
     var sdk = new SDK("{Custom api url}", "{Your personal token}");
 ```
 
